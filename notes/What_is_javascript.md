@@ -38,3 +38,31 @@ A website is built upon following things:
 ### Variable naming conventions
 CamelCase --> firstName ** Standard
 first_name
+---
+### Data types
+ 1. Objects
+ 2. Primitive
+
+Objects = {  name : 'Jonas' };
+let firstName = "Shubham"
+----
+### The 7 Primitive Data type
+1. Number: Floating point numbers; Used for decimal and integers. Ex. let age = 23;
+2. String: Sequence of characters; Used for text. let firstName = 'Jonas';
+3. Boolean :  Logical type that can be only true or false; Used for taking decisions. let isValid = true;
+4. Undefined: Value taken by a variable that is not yet defined.(`empty value`) let children;
+5. Null : Also means `empty value`.
+6. Symbol (ES2015): Value that is unique and cannot be changed.
+7. BigInt(ES2020): Larger integer than the Number type can hold.
+---
+### Dynamic type
+`JavaScript has a dynamic typing:` We do `not` have to manually define the data type of the values stored in a variable. Instead, data types are determined `automatically`.
+
+---
+### `const`, `var` and `let`
+1. `const` : It is used to declare a non-mutable variable. It means it cannot be changed in future.
+2. `let` : It is used to declare a mutable variable whose value needs to be changed. Also, `let` is a `block scoped`.
+3. `var` : It is similar as `let` keyword. But, it is a `function scoped` declaration.
+
+---
+
