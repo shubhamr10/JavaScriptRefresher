@@ -66,3 +66,111 @@ let firstName = "Shubham"
 
 ---
 
+### Operator Precedence
+
+Link ==> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
+
+---
+### Type coercion
+
+`Type coercion` means change a value fron one data type to another.
+
+---
+### Type Conversion and Type coercion
+
+1. Type Conversion : When we change the data type manually.
+2. Type coercion : When JavaScript changes the datatype.
+
+#### Some new operators
+1. Number : `Number('23')` this will result in 23 of type number.
+2. String : `String(23)` this will result in 23 as string.
+3. Boolean : Converts to boolean `true or false`
+---
+### Truthy and Falsy value
+1. Falsy value : `0, '', undefined, null, NaN`
+2. Truthy Value : value which returns true and apart from above.
+
+---
+### `===` and `!==`
+Always use strict comparisons instead of loose `==`
+
+---
+### Basic Boolean Logic
+ Example
+ A : Sarah has a driver's licence.
+ B: Sarah has a good vision.
+
+A `AND` B Boolean table.
+
+| AND   | TRUE  | FALSE |
+|-------|-------|-------|
+| TRUE  | TRUE  | FALSE |
+| FALSE | FALSE | FALSE |
+
+A `OR` B Boolean table.
+
+| OR    | TRUE | FALSE |
+|-------|------|-------|
+| TRUE  | TRUE | TRUE  |
+| FALSE | TRUE | FALSE |
+
+`NOT` A 
+Inverts true/false value.
+
+---
+
+### Statements and Expression
+Expression :  Expression is a line of code that produces a value.
+For example:  
+`3+4`  
+`1991`  
+`true && false && !false`   
+
+Statement : Line of code that does something like we write program to do something's like full sentences.
+
+`if(23 > 10){
+ const str = '23 is bigger'
+}`
+
+----
+### JavaScript Releases
+
+| Year        | Statements                                                                                                                                                                              |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1995        | Brenden Eich creates the very first version of JavaScript in just 10 days. It was called `Mocha`, but already had many fundamental features of modern JavaScript!                       |
+| 1996        | `Mocha` changes to LiveScript and then to **JavaScript**, in order to attract Java Developers. However, **JavaScript has nothing to do with Java**                                      |
+|             | Microsoft launches IE, **copying JavaScript from Netscape and calling it JScript**                                                                                                      |
+| 1997        | With a need to standardize the language, ECMA releases ECMAScript 1(ES1), the first official standard for JavaScript ( ECMASScript is the standard, JavaScript the language in practise |
+| 2009        | ES5 (ECMAScript 5) is released with lots of great new features.                                                                                                                         |
+| 2015        | ES6/ES2015 (ECMAScript 2015) was released: **the biggest update to the language ever!**                                                                                                 |
+|             | ECMAScript changes to an annual release cycle in order to ship less features per update                                                                                                 |
+| 2016 - till | Release of ES2016 / ES2017 / ES2018 / ES2019 / ES2020 / ES2021/ .....                                                                                                                   |
+
+---
+
+**Backwards Compatibility & No breaking changes**
+1. Old features were never removed.
+2. Not really new versions, just incremental updates( releases ).
+3. Websites keep working forever!
+4. JavaScript do not have **forward compatibility**
+
+---
+### How to use Modern JavaScript today
+
+During Development :  Simply use the latest Google Chrome!
+During Production  :  Use Babel to transpile and polyfill your code( converting back to ES to ensure browser compatibility for all users.)
+
+**ES5** :  
+Fully supported in all browser ( down to IE9 from 2011).  
+Ready to be used today.
+
+**ES6/ES -> ES2020** :  
+ES6+ Well supported in all modern browsers.  
+No support in older browsers.
+Can use most features in production with transpiling and polyfill-ling.
+
+
+**ES2021 - till**  
+ESNext : Future versions of the language (new features proposals that reach Stage4).  
+Can already use some feature in production with transpiling and polyfill-ling.
+
